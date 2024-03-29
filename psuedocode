@@ -1,0 +1,11 @@
+1. Declare all your variables for Hours, Minutes, Seconds. 
+    -use currentTime.get(Minutes),(Hours), (Seconds)
+2. Create a fucntion that allows a local live clock running and updates with each second without refreshing the screen.
+3. Add buttons with events for set Alarm, Snooze Alarm, Stop Alarm
+4. Set up your alarm
+5. create a function with the button event that allows for alarm to be set for future time by 5 seconds.
+6. Set up your snooze
+7. create a function with the button event that allows for an action to be taken 3 seconds after the alarm time in th future. 
+8. Set up your Stop Alarm
+9. create a function with the button event that clears the functionality of the alarm button. 
+10. 
