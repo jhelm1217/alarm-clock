@@ -1,0 +1,36 @@
+.clock {
+    width: 50%;
+    height: 50%;
+    font-size: 75px;
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock span {
+    font-size: 70px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after {
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 5%;
+}
+
+#hours::after{
+    content: 'HOURS';
+}
+
+#minutes::after{
+    content: 'MINUTES'
+}
+
+#seconds::after{
+    content: 'SECONDS'
+}

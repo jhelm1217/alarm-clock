@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="container">
+        <div class="clock">
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>   
+        </div>   
+   </div> 
+   <p>
+    <div class="Alarm">
+        <div class="set-alarm">
+              <label for="alarm-time"></label>
+              <input type="time" class="alarm-time" />
+              </div>
+        <button id="alarmInFuture">Set Alarm</button>  
+        <button id="snooze">Snooze!</button>
+        <button id="stop">Stop Alarm!</button>
+        <!-- <audio id="audio" controls>
+            <source src="alarm-clock/audio.mp3/ringtone-126505.mp3" type="audio/mp3"></audio>
+        </audio> -->
+    </div>
+    </p>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
